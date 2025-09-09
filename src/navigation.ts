@@ -115,7 +115,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
+  actions: [{ text: 'Top-Up Murah', href: 'https://pixystore.id', target: '_blank' }],
 };
 
 export const footerData = {
