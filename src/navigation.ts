@@ -4,24 +4,7 @@ export const headerData = {
   links: [
     {
       text: 'Homes',
-      links: [
-        {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
-      ],
+      href: '#',
     },
     {
       text: 'Pages',
@@ -121,62 +104,32 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Produk Unggulan',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
-      ],
-    },
-    {
-      title: 'Platform',
-      links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'Mobile Legends: Bang Bang ID', href: 'https://pixystore.id/game/mobile-legends' },
+        { text: 'Honor of Kings', href: 'https://pixystore.id/game/honor-of-kings' },
+        { text: 'Roblox', href: 'https://pixystore.id/voucher/roblox' },
+        { text: 'Free Fire', href: 'https://pixystore.id/game/free-fire' },
+        { text: 'Delta Force Mobile', href: 'https://pixystore.id/game/delta-force-mobile' },
+        { text: 'PUBG Mobile', href: 'https://pixystore.id/game/pubg-mobile' },
+        { text: 'Genshin Impact', href: 'https://pixystore.id/game/genshin-impact' },
+        { text: 'Steam Wallet', href: 'https://pixystore.id/voucher/steam' },
       ],
     },
     {
       title: 'Support',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Customer Service', href: 'https://api.whatsapp.com/send/?phone=%2B6281380091046&text&type=phone_number&app_absent=0' },
+        { text: 'Partner', href: 'https://www.youtube.com/@MILKKI_TAYO' },
       ],
     },
-    {
-      title: 'Company',
-      links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
-      ],
-    },
-  ],
-  secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/pixystore_id' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/pixystoreid/' },
+    { ariaLabel: 'Youtube', icon: 'tabler:brand-youtube', href: 'https://www.youtube.com/@MILKKI_TAYO' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Arthelokyo</a> · All rights reserved.
+    Top-Up Termurah Cuma di <a class="text-blue-600 underline dark:text-muted" href="https://pixystore.id"> PixyStore.id</a> ·
   `,
 };
