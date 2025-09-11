@@ -1,34 +1,34 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: PixyStore
+  site: 'https://topup.pixystore.id'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: k0C0D4vQt2-JYkcS_QI1LMwtBBLsH3KgNLPS5DAMhxU
 
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: PixyStore
+    template: '%s — PixyStore'
+  description: "\U0001F680 Top up Mobile Legends, Free Fire, PUBG, ROBLOX, Genshin Impact, DeltaF & game populer lainnya lebih murah, cepat, instan, dan terpercaya. Nikmati layanan top up online 24 jam aman cuma di PixyStore.id"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: PixyStore
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@arthelokyo'
-    site: '@arthelokyo'
+    handle: ''
+    site: ''
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: id
   textDirection: ltr
 
 apps:
@@ -66,7 +66,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: null # or "G-XXXXXXXXXX"
+      id: G-NB3W3KMNLR # or "G-XXXXXXXXXX"
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
